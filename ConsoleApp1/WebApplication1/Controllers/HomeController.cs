@@ -19,4 +19,39 @@ public class HomeController : Controller
 
         return View();
     }
+
+    public IActionResult Skills()
+    {
+         ViewData["Programming Languages"] = "C#, Java, Python, VB.NET";
+         ViewData["Web"] = "HTML, CSS, ASP.NET Core";
+         ViewData["Databases"] = "SQL Server, MySQL";
+         ViewData["Tools"] = "Visual Studio, Git";
+
+        return View();
+    }
+
+public IActionResult Projects()
+    {
+        ViewData["Project1"] = "The ABC Lending Corporation Loan Calculator Program is a user-friendly application designed to simplify the borrowing process by allowing users to seamlessly apply for loans and instantly view detailed financial computations.";
+        ViewData["Tech1"] = "VB.NET Windows Forms Application (GUI)";
+
+        ViewData["Project2"] = "MQ-Check is an intuitive, low-fidelity UI blueprint designed for a modern health clinic's digital check-up system. The platform streamlines the patient intake process by initiating the check-up workflow and providing critical medical emergency disclosures to ensure immediate care for urgent symptoms.";
+        ViewData["Tech2"] = "VB.NET Windows Forms Application (GUI)";
+
+        ViewData["Project3"] = "The platform features an organized layout highlighting my credentials, creative galleries, activities, and direct links to social and search platforms.";
+        ViewData["Tech3"] = "HTML, CSS";
+
+        return View();
+    }
+
+    public IActionResult Contacts()
+    {
+        ViewData["Email"] = "Email: iamaltheavallejos@email.com";
+        ViewData["Mobile"] = "Mobile: 0993-874-7925";
+        ViewData["GitHub"] = "GitHub: https://github.com/vallejos09";
+        ViewData["LinkedIn"] = "LinkedIn: https://www.linkedin.com/in/althea-vallejos-5267821b7/";
+
+        return View();
+    }
 }
+
