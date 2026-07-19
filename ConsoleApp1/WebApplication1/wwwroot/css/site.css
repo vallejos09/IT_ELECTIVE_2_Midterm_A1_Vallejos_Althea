@@ -29,3 +29,60 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.name-highlight {
+    font-weight: 900;
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.btn-lavender {
+    background-color: #E2E1FC; 
+    color: #4B0082; 
+    border: none; 
+}
+
+.btn-lavender:hover {
+    background-color: #D8BFD8; 
+    color: #fff; 
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px; 
+    padding: 8px 12px; 
+}
+
+.sidebar .nav-link:hover {
+    background-color: #E6E6FA !important;
+    color: #391E41 !important;
+}
+
+.sidebar {
+    min-height: 100vh; 
+    flex-shrink: 0; 
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; 
+        min-height: auto;
+    }
+}
+
+.skill-card {
+    background-color: #E6E6FA; /* Lavender */
+    color: #4B0082; /* Indigo text */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    background-color: #D8BFD8; /* Slightly darker lavender */
+}

@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ConsoleApp1",
+    "\\ConsoleApp1\\WebApplication1",
+    "\\ConsoleApp1\\WebApplication1\\Controllers",
+    "\\ConsoleApp1\\WebApplication1\\Models",
+    "\\ConsoleApp1\\WebApplication1\\Properties",
+    "\\ConsoleApp1\\WebApplication1\\Views",
+    "\\ConsoleApp1\\WebApplication1\\Views\\Home",
+    "\\ConsoleApp1\\WebApplication1\\Views\\Shared"
   ],
+  "SelectedNode": "\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
